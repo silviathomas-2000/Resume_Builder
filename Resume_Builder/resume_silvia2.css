@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font: 1em sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+
+  .hide {
+    display: none;
+  }
+  #form-container {
+
+    
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header, .container, .box3 {
+    margin-bottom: 20px;
+  }
+  
+
+  
+   .box2, .box3 {
+    padding: 15px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  .box{
+    padding: 15px;
+    border-radius: 8px;
+    background: rgb(235, 215, 224);
+    
+  }
+  strong {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 10px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  p {
+    margin: 3px;
+    padding: 10px;
+  } 
+  
+ 
+  
+ 
+  
+  
+  
+  
+  .contact-container, .skill-container, .certification-container, .strength-container, .objective-container, .academic-container, .project-container, .internship-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border: #ddd;
+  
+  }
+  
+  .name-container input[type="button"], .contact-container input[type="button"], .skill-container input[type="button"], .certification-container input[type="button"], .strength-container input[type="button"], .objective-container input[type="button"], .academic-container input[type="button"], .project-container input[type="button"], .internship-container input[type="button"] {
+    background-color: #007bff;
+  }
+  
+  .name-container input[type="button"] {
+    background-color: #007bff;
+  }
+  
+  .name-container input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .header .image {
+      width: 80px;
+      height: 80px;
+    }
+  
+    input[type="text"] {
+      width: calc(100% - 16px);
+    }
+  }
+  
+#name-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  font-weight: bold; 
+  font-size: 2em; 
+  margin-top: 10px; 
+}
+
+
+.name-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+
+.name-container strong {
+  font-size: 1.5em; 
+  font-weight: bold; 
+}
+
+#template-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.template-link {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+  border: 1px solid transparent;
+}
+

@@ -1,0 +1,1321 @@
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.header .box input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.header .box input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 16px;
+  width: calc(100% - 150px);
+}
+
+.container {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#save-button {
+  background-color: #e08dc0;
+  color: white;
+}
+
+#cancel-button {
+  background-color: #f43685;
+  color: white;
+}
+
+#name-display {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#name-input,
+#save-button,
+#cancel-button {
+  display: inline-block;
+}
+
+
+.phone-number-input-section.hide {
+  display: none;
+}
+
+.phone-number-input-section.show {
+  display: block;
+}
+
+.phone-number-input-section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+#contact-error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+.phone-number-input-section.hide {
+  display: none;
+}
+
+.phone-number-input-section.show {
+  display: block;
+}
+
+
+.phone-number-input-section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+
+#contact-error {
+  color: red;
+  font-size: 14px;
+}
+
+.error-message {
+  color: red;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.box {
+  width: 80%;
+  padding: 9.92%;
+  border: 1px solid rgb(255, 255, 255);
+  font-family: "Times New Roman";
+  font-size: 300%;
+  background-color: #ebd7e0;
+  text-align: center;
+}
+
+.box2 {
+  width: 40%;
+  padding: 1%;
+  text-align: left;
+}
+
+.box3 {
+  width: 90%;
+  padding: 1%;
+  border: 1px solid #ffffff;
+  background-color: #EEEEEE;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  .box {
+    width: 100%;
+    padding: 10px;
+    font-size: 150%;
+    white-space: normal;
+
+  }
+
+  .box2 {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(231, 231, 231);
+    white-space: normal;
+
+    p {
+      font-size: small;
+    }
+
+  }
+
+  .box3 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1100px) {
+  .box {
+    font-size: 80px;
+    white-space: normal;
+  }
+}
+
+@media only screen and (min-width: 1101px) {
+  .box {
+    background-color: #E6D1C5;
+    font-size: 100px;
+    white-space: normal;
+  }
+
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.error-message {
+  color: red;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.contact-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.contact-container input[type="button"] {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#displayValue {
+
+  top: 100%;
+  left: 0;
+  margin-top: 3px;
+
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#btn1 {
+  background-color: #dadada;
+}
+
+#btn2 {
+  background-color: #dadada;
+}
+
+.phone-number-input-section.hide {
+  display: none;
+}
+
+.phone-number-input-section.show {
+  display: block;
+}
+
+.phone-entry {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.remove-button {
+  margin-left: 10px;
+  background-color: #d8d8d8;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #e94a4a;
+}
+
+.contact-form-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #ffffff;
+}
+
+.contact-form-section input[type="text"] {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.contact-form-section input[type="button"] {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.contact-form-section input[type="text"] {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 70%;
+}
+
+.contact-form-section input[type="button"] {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact-submit-btn {
+  background-color: #007bff;
+
+  color: rgb(0, 0, 0);
+}
+
+#contact-submit-btn:hover {
+  background-color: #adabab;
+}
+
+#contact-cancel-btn {
+  background-color: #007bff;
+  color: rgb(0, 0, 0);
+}
+
+#contact-cancel-btn:hover {
+  background-color: #acaaaa;
+}
+
+.contact-card {
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.contact-card button {
+
+  color: rgb(88, 87, 87);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.contact-card button:hover {
+  background-color: #919191;
+}
+
+
+
+#error-message {
+  color: red;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+
+.certification-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.certification-container strong {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.certification-container input[type="button"] {
+
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.certification-form-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.certification-form-section input[type="text"],
+.certification-form-section input[type="date"] {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.certification-form-section input[type="button"] {
+
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
+
+#certification-submit-btn {
+  background-color: #007bff;
+  color: rgb(0, 0, 0);
+}
+
+#certification-submit-btn:hover {
+  background-color: #adabab;
+}
+
+#certification-cancel-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+#certification-cancel-btn:hover {
+  background-color: #acaaaa;
+}
+
+
+#certification-display {
+  margin: 20px 0;
+}
+
+
+hr {
+  width: 30%;
+  text-align: left;
+  margin-left: 0;
+}
+
+
+.cert-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.cert-card button {
+  background-color: #bebebe;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.cert-card button:hover {
+  background-color: #919191;
+}
+
+
+#displayValue {
+
+  top: 100%;
+  left: 0;
+  margin-top: 3px;
+
+}
+
+
+.skill-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.skill-container strong {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.skill-container input[type="button"] {
+
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.skill-form-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.skill-form-section input[type="text"],
+.skill-form-section input[type="text"] {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.skill-form-section input[type="button"] {
+
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
+
+#skill-submit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+#skill-submit-btn:hover {
+  background-color: #adabab;
+}
+
+#skill-cancel-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+#skill-cancel-btn:hover {
+  background-color: #acaaaa;
+}
+
+
+#skill-display {
+  margin: 20px 0;
+}
+
+
+hr {
+  width: 30%;
+  text-align: left;
+  margin-left: 0;
+}
+
+
+.skill-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.skill-card button {
+  background-color: #bebebe;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.skill-card button:hover {
+  background-color: #919191;
+}
+
+
+#displayValue {
+
+  top: 100%;
+  left: 0;
+  margin-top: 3px;
+
+}
+
+.strength-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.strength-container strong {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.strength-container input[type="button"] {
+
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.strength-form-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.strength-form-section input[type="text"],
+.strength-form-section input[type="text"] {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.strength-form-section input[type="button"] {
+
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
+
+#strength-submit-btn {
+  background-color: #c2c1c1;
+  color: white;
+}
+
+#strength-submit-btn:hover {
+  background-color: #adabab;
+}
+
+#strength-cancel-btn {
+  background-color: #b3b2b2;
+  color: white;
+}
+
+#strength-cancel-btn:hover {
+  background-color: #acaaaa;
+}
+
+
+#strength-display {
+  margin: 20px 0;
+}
+
+
+hr {
+  width: 30%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.strength-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.strength-card button {
+  background-color: #bebebe;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.strength-card button:hover {
+  background-color: #919191;
+}
+
+#displayValue {
+
+  top: 100%;
+  left: 0;
+  margin-top: 3px;
+
+}
+
+
+.objective-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.objective-container strong {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.objective-container input[type="button"] {
+
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.objective-form-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.objective-form-section input[type="text"],
+.objective-form-section input[type="text"] {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.objective-form-section input[type="button"] {
+
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
+
+#objective-submit-btn {
+  background-color: #c2c1c1;
+  color: white;
+}
+
+#objective-submit-btn:hover {
+  background-color: #adabab;
+}
+
+#objective-cancel-btn {
+  background-color: #b3b2b2;
+  color: white;
+}
+
+#objective-cancel-btn:hover {
+  background-color: #acaaaa;
+}
+
+
+#objective-display {
+  margin: 20px 0;
+}
+
+
+hr {
+  width: 30%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.objective-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.objective-card button {
+  background-color: #bebebe;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.objective-card button:hover {
+  background-color: #919191;
+}
+
+#displayValue {
+
+  top: 100%;
+  left: 0;
+  margin-top: 3px;
+
+}
+
+
+.academic-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.academic-container strong {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.academic-container input[type="button"] {
+
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.academic-form-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.academic-form-section input[type="text"],
+.academic-form-section input[type="text"] {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.academic-form-section input[type="button"] {
+
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
+
+#academic-submit-btn {
+  background-color: #c2c1c1;
+  color: white;
+}
+
+#academic-submit-btn:hover {
+  background-color: #adabab;
+}
+
+#academic-cancel-btn {
+  background-color: #b3b2b2;
+  color: white;
+}
+
+#academic-cancel-btn:hover {
+  background-color: #acaaaa;
+}
+
+
+#academic-display {
+  margin: 20px 0;
+}
+
+
+hr {
+  width: 30%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.academic-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.academic-card button {
+  background-color: #bebebe;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.academic-card button:hover {
+  background-color: #919191;
+}
+
+#displayValue {
+
+  top: 100%;
+  left: 0;
+  margin-top: 3px;
+
+}
+
+
+.project-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.project-container strong {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.project-container input[type="button"] {
+
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.project-form-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.project-form-section input[type="text"],
+.project-form-section input[type="text"] {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.project-form-section input[type="button"] {
+
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
+
+#project-submit-btn {
+  background-color: #c2c1c1;
+  color: white;
+}
+
+#project-submit-btn:hover {
+  background-color: #adabab;
+}
+
+#project-cancel-btn {
+  background-color: #b3b2b2;
+  color: white;
+}
+
+#project-cancel-btn:hover {
+  background-color: #acaaaa;
+}
+
+
+#project-display {
+  margin: 20px 0;
+}
+
+
+hr {
+  width: 30%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.project-card button {
+  background-color: #bebebe;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.project-card button:hover {
+  background-color: #919191;
+}
+
+#displayValue {
+
+  top: 100%;
+  left: 0;
+  margin-top: 3px;
+
+}
+
+
+
+.internship-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.internship-container strong {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.internship-container input[type="button"] {
+
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.internship-form-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.internship-form-section input[type="text"],
+.internship-form-section input[type="text"] {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.internship-form-section input[type="button"] {
+
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
+
+#internship-submit-btn {
+  background-color: #c2c1c1;
+  color: white;
+}
+
+#internship-submit-btn:hover {
+  background-color: #adabab;
+}
+
+#internship-cancel-btn {
+  background-color: #b3b2b2;
+  color: white;
+}
+
+#internship-cancel-btn:hover {
+  background-color: #acaaaa;
+}
+
+
+#internship-display {
+  margin: 20px 0;
+}
+
+
+hr {
+  width: 30%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.internship-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.internship-card button {
+  background-color: #bebebe;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.internship-card button:hover {
+  background-color: #919191;
+}
+
+#displayValue {
+
+  top: 100%;
+  left: 0;
+  margin-top: 3px;
+
+}
+
+.name-container strong {
+  font-size: 40px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.name-container input[type="button"] {
+
+  /* position: absolute; */
+  right: 10px;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  width: 10%;
+}
+
+
+
+.name-form-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+
+}
+
+.name-form-section input[type="text"],
+.name-form-section input[type="text"] {
+
+
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 75px;
+  width: 80%;
+}
+
+.name-form-section input[type="button"] {
+
+  margin: 2px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 70px;
+
+
+}
+
+#name-submit-btn {
+  background-color: #c2c1c1;
+  color: white;
+}
+
+#name-submit-btn:hover {
+  background-color: #adabab;
+}
+
+#name-cancel-btn {
+  background-color: #b3b2b2;
+  color: white;
+}
+
+#name-cancel-btn:hover {
+  background-color: #acaaaa;
+}
+
+
+#name-display {
+  margin: 20px 0;
+}
+
+
+hr {
+  width: 30%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.name-card {
+
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.name-card button {
+  background-color: #bebebe;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.name-card button:hover {
+  background-color: #919191;
+}
+
+.name-container {
+  flex: 1;
+  position: relative;
+  /* display: flex; */
+  align-items: center;
+
+  font-size: 100px;
+  ;
+}
+
+.name-content {
+  display: inline-block;
+}
+
+button {
+  margin-left: 10px;
+}
+
+
+
+#displayValue {
+
+  top: 100%;
+  left: 0;
+  margin-top: 3px;
+  align-items: center;
+
+}
+
+#template-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.template-link {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+  border: 1px solid transparent;
+}
+
+.template-link:hover {
+  background-color: #0056b3;
+}
+
+@media print {
+  #print-button {
+      display: none;
+  }
+  body {
+      font-size: 12pt;
+  }
+}

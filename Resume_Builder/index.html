@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silvia Thomas - Resume</title>
+  <link rel="stylesheet" href="resume_silvia.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script type="module" src="main.js" defer></script>
+  
+</head>
+<body>
+  <button id="print-button">Print Resume</button>
+  <div id="template-buttons">
+    <a href="index.html" id="template1-link" class="template-link" >Template 1</a>
+    <a href="template.html" id="template2-link" class="template-link">Template 2</a>
+  </div>
+  <div id="form-container">
+    <div class="header">
+      <div class="image"></div>
+      <div class="box">
+        <p class="name-container">
+          <strong>Enter Your Name</strong>
+          <input type="button" id="nameid" name="name" value="+" />
+        </p>
+        <div id="name-display"></div>
+          
+          <div id="name-form-section" class="name-input-section hide">
+            <input type="text" id="firstname-input" placeholder="Enter your firstname " /><br>
+            <input type="text" id="lastname-input" placeholder="Enter your lastname " /><br>
+            
+            <input type="button" id="name-submit-btn" value="✓" onclick="submitNameForm()">
+            <input type="button" id="name-cancel-btn" value="✗" onclick="cancelNameForm()">
+        </div>
+          <p id="name-error" class="error-message"></p>
+      
+      </div>
+    </div>
+    <script>
+      document.getElementById('nameid').addEventListener('click', function() {
+        document.getElementById('name-display').textContent = name;
+        document.querySelector('.name-container').classList.add('hide');
+      });
+    </script>
+    
+    
+    <div class="container">
+      <div class="box2">
+        <p class="contact-container">
+        <strong>CONTACT</strong>
+          <input type="button" id="contactid" name="contact" value="+" />
+        </p>
+        <div id="phone-display"> </div>
+        </p>
+        <div id="card-display"></div>
+        <div id="contact-form-section" class="phone-number-input-section hide">
+          <input type="text" id="phone-input" placeholder="Enter phone number" /><br>
+          <input type="text" id="email-input" placeholder="Enter email address" /><br>
+          <input type="text" id="address-line1-input" placeholder="Enter address line 1" /><br>
+          <input type="text" id="address-line2-input" placeholder="Enter address line 2" /><br>
+          <input type="text" id="linkedin-input" placeholder="Enter LinkedIn link" /><br>
+          <input type="button" id="contact-submit-btn" value="✓" onclick="submitContactForm()">
+          <input type="button" id="contact-cancel-btn" value="✗" onclick="cancelContactForm()">
+      </div>
+        <p id="contact-error" class="error-message"></p>
+
+        <p class="skill-container">
+          <strong>SKILLS</strong>
+            <input type="button" id="skillid" name="skill" value="+" />
+          </p>
+          <div id="skill-display"> </div>
+          
+        
+          <div id="skill-form-section" class="skill-input-section hide">
+            <input type="text" id="title-input" placeholder=" Title" /><br>
+            <input type="text" id="description-input" placeholder="Description" /><br>
+           
+            <input type="button" id="skill-submit-btn" value="✓" onclick="submitSkillForm()">
+            <input type="button" id="skill-cancel-btn" value="✗" onclick="cancelSkillForm()">
+        </div>
+          <p id="skill-error" class="error-message"></p>
+
+
+        <p class="certification-container">
+          <strong>CERTIFICATIONS</strong>
+          <input type="button"  id="certificationid" name="certification" value="+" />
+        </p>
+        <div id="certification-display"></div>
+        <div id="certification-form-section" class="certification-form-section hide">
+          <input type="text" id="certification-name-input" placeholder="Certification Name" /><br>
+          <input type="text" id="institution-name-input" placeholder="Institution Name" /><br>
+          <input type="date" id="certification-date-input" /><br>
+          <input type="button" id="certification-submit-btn" value="✓" onclick="submitCertificationForm()">
+          <input type="button" id="certification-cancel-btn" value="✗" onclick="cancelCertificationForm()">
+        </div>
+        <p id="certification-error" class="error-message"></p>
+        <p class="strength-container">
+        <strong>STRENGTH</strong>
+        <input type="button" id="strengthid" name="strength" value="+" />
+      </p>
+      <div id="strength-display"></div>
+      <div id="strength-form-section" class="strength-form-section hide">
+        <input type="text" id="strength-name-input" placeholder="Strengths1" /><br>
+        <input type="text" id="strength2-name-input" placeholder="Strength2" /><br>
+        <input type="button" id="strength-submit-btn" value="✓" onclick="submitStrengthForm()">
+        <input type="button" id="strength-cancel-btn" value="✗" onclick="cancelStrengthForm()">
+      </div>
+      <p id="strength-error" class="error-message"></p>
+      </div>
+      <div class="box3">
+        <p class="objective-container">
+          <strong>OBJECTIVE</strong>
+          <input type="button" id="objectiveid" name="objective" value="+" />
+        </p>
+        <div id="objective-display"></div>
+        <div id="objective-form-section" class="objective-form-section hide">
+          <input type="text" id="objective-input" placeholder="Add Objectives" /><br>
+          <input type="button" id="objective-submit-btn" value="✓" onclick="submitObjectiveForm()">
+          <input type="button" id="objective-cancel-btn" value="✗" onclick="cancelObjectiveForm()">
+        </div>
+        <p id="objective-error" class="error-message"></p>
+        
+        <p class="academic-container">
+          <strong>ACADEMIC DETAILS</strong>
+          <input type="button" id="academicid" name="academic" value="+" />
+        </p>
+        <div id="academic-display"></div>
+        <div id="academic-form-section" class="academic-form-section hide">
+          <input type="text" id="qualification-input" placeholder="Qualification" /><br>
+          <input type="text" id="year-input" placeholder="Year Of Qualification" /><br>
+          <input type="text" id="college-input" placeholder="College Name" /><br>
+          <input type="text" id="university-input" placeholder="University Name" /><br>
+          <input type="text" id="percentage-input" placeholder="Percentage" /><br>
+          <input type="button" id="academic-submit-btn" value="✓" onclick="submitAcademicForm()">
+          <input type="button" id="academic-cancel-btn" value="✗" onclick="cancelAcademicForm()">
+        </div>
+        <p id="academic-error" class="error-message"></p>
+
+
+        <p class="project-container">
+          <strong>PROJECT DETAILS</strong>
+          <input type="button" id="projectid" name="project" value="+" />
+        </p>
+        <div id="project-display"></div>
+        <div id="project-form-section" class="project-form-section hide">
+          <input type="text" id="projectname-input" placeholder="Project Name" /><br>
+          <input type="text" id="descriptionpro-input" placeholder="Description" /><br>
+          <input type="text" id="language-input" placeholder="Languages Used" /><br>
+
+          <input type="button" id="project-submit-btn" value="✓" onclick="submitProjectForm()">
+          <input type="button" id="project-cancel-btn" value="✗" onclick="cancelProjectForm()">
+        </div>
+        <p id="project-error" class="error-message"></p>
+
+        <p class="internship-container">
+          <strong>INTERNSHIP</strong>
+          <input type="button" id="internshipid" name="internship" value="+" />
+        </p>
+        <div id="internship-display"></div>
+        <div id="internship-form-section" class="intern-form-section hide">
+          <input type="text" id="name-input" placeholder="NAME" /><br>
+          <input type="text" id="duration-input" placeholder="Duration" /><br>
+          <input type="text" id="institution-input" placeholder="Institution" /><br>
+          <input type="button" id="internship-submit-btn" value="✓" onclick="submitInternshipForm()">
+          <input type="button" id="internship-cancel-btn" value="✗" onclick="cancelInternshipForm()">
+        </div>
+        <p id="internship-error" class="error-message"></p>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
